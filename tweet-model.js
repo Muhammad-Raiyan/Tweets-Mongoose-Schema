@@ -3,18 +3,25 @@ const timestamps = require('mongoose-timestamp');
 
 const tweetSchema = mongoose.Schema({
     username: {
-        type: String
+        type: String,
+        required: true
     },
     
     content: {
         type: String,
-        default: ''
+        required: true
     },
 
     childType: {
         type: String,
         default: null
-    }
+    },
+
+    parent: this,
+
+    media: [{
+        id: String
+    }]
 });
 
 tweetSchema.plugin(timestamps);
