@@ -1,6 +1,6 @@
 {
   "name": "tweets-mongoose-schema",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Mongoose db schema for tweets as a part of Twitter-MS",
   "main": "tweet-model.js",
   "scripts": {
