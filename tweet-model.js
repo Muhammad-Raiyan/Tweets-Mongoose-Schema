@@ -19,6 +19,11 @@ const tweetSchema = mongoose.Schema({
 
     parent: this,
 
+    usersWhoLiked: [{
+        username: String,
+        id: mongoose.Schema.Types.ObjectId
+    }],
+    
     media: [{
         id: String
     }]
