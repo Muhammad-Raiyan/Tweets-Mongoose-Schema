@@ -1,0 +1,28 @@
+{
+  "name": "tweets-mongoose-schema",
+  "version": "1.0.0",
+  "description": "Mongoose db schema for tweets as a part of Twitter-MS",
+  "main": "tweet-model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Raiyan/Tweets-Mongoose-Schema.git"
+  },
+  "keywords": [
+    "mongoose",
+    "schema",
+    "tweet"
+  ],
+  "author": "Muhammad Raiyanul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Muhammad-Raiyan/Tweets-Mongoose-Schema/issues"
+  },
+  "homepage": "https://github.com/Muhammad-Raiyan/Tweets-Mongoose-Schema#readme",
+  "dependencies": {
+    "mongoose": "^5.0.14",
+    "mongoose-timestamp": "^0.6.0"
+  }
+}
